@@ -17,9 +17,9 @@ public class Threademo {
 		Mythread t=new Mythread();
 		//Thread t=new Thread();
 		t.start();
-		System.out.println("name:"+Thread.currentThread().getName());
+		/*System.out.println("name:"+Thread.currentThread().getName());
 		Thread.currentThread().setName("pawan kalyan gee");
-		System.out.println("name:"+Thread.currentThread().getName());
+		System.out.println("name:"+Thread.currentThread().getName());*/
 		for(int i=1;i<10;i++){
 			System.out.println("main thread");
 		}
